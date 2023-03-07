@@ -1,0 +1,78 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1 id="title">Comedy Central Survey Form</h1>
+    <p id="description">Share with us your all time favorite Comedy Central Show!</p>
+    <div id="main-content">
+    <form action="link-goes-here" id="survey-form">
+        <div class="top-content">
+            <label for="name" id="name-label">Name
+            <input type="text" id="name" placeholder="Enter your name" required></input>
+            </label>
+        </div>
+        <div class="top-content">
+            <label for="email" id="email-label">Email
+            <input type="email" id="email" placeholder="Enter your email" required></input>
+            </label>
+        </div>
+        <div class="top-content">
+            <label for="number" id="number-label">Age
+            <input type="number" id="number" placeholder="Age" min="0" max="100"></input>
+            </label>
+        </div>
+        <div id="dropdown-box">
+        <label for="dropdown">How often are you on the network?
+            <select id="dropdown">
+            <option value=””>Select an Option</option>
+            <option value=”never”>Never</option>
+            <option value=”rarely”>Rarely</option>
+            <option value=”average”>Average</option>
+            <option value=”often”>Often</option>
+            <option value=”always”>Always</option>
+            </select>
+        </label>
+        </div>
+        <div id="radio-box">
+            <p>Through what media outlet do you watch the network?</p>
+            <input type="radio" name="radio-group" value="television" id="radio1"></input>
+            <label for="radio1">Television</label>
+            <input type="radio" name="radio-group" value="mobile-phone" id="radio2"></input>
+            <label for="radio2">Mobile Phone</label>
+            <input type="radio" name="radio-group" value="website" id="radio3"></input>
+            <label for="radio3">Website</label>
+        </div>
+        <div id="check-boxes">
+            <p>Check off any television show you like to watch</p>
+            <input type="checkbox" value="workaholics" id="checkbox1"></input>
+            <label for="checkbox1">Workaholics</label>
+            <input type="checkbox" value="broad city" id="checkbox2"></input>
+            <label for="checkbox2">Broad City</label>
+            <input type="checkbox" value="chappelle show" id="checkbox3"></input>
+            <label for="checkbox3">Chappelle's Show</label>
+            <input type="checkbox" value="crank yankers" id="checkbox4"></input>
+            <label for="checkbox4">Crank Yankers</label>
+            <input type="checkbox" value="futurama" id="checkbox5"></input>
+            <label for="checkbox5">Futurama</label>
+            <input type="checkbox" value="key and peele" id="checkbox6"></input>
+            <label for="checkbox6">Key and Peele</label>
+            <input type="checkbox" value="south park" id="checkbox7"></input>
+            <label for="checkbox7">South Park</label>
+        </div>
+        <div id="text-area">
+            <p>Are there any shows we are missing?</p>
+            <textarea placeholder="Enter text here" rows="4" cols="50"></textarea>
+        </div>
+        <div id="submit-box">
+        <input type="submit" id="submit" value="Submit"></input>
+        </div>
+    </form>
+    </div>
+  </body>
+</html>
+
